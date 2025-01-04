@@ -9,11 +9,11 @@ Plug 'nordtheme/vim'
 call plug#end()
 
 " Themes setting
-" set t_Co=256
-" colorscheme komau
-" set background=dark ? dark : light"
-" let g:komau_italic=0
-" let g:komau_bold=0
+set t_Co=256
+colorscheme komau
+set background=dark ? "dark : light"
+let g:komau_italic=0
+let g:komau_bold=0
 
 " colorscheme nord
 
