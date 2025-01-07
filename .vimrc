@@ -11,7 +11,7 @@ call plug#end()
 " Themes setting
 set t_Co=256
 colorscheme komau
-set background=dark ? "dark : light"
+set background=dark ""? dark : light"
 let g:komau_italic=0
 let g:komau_bold=0
 
@@ -35,13 +35,13 @@ set shiftwidth=4
 autocmd BufWritePre * :Autoformat
 
 "augroup format_code
-"	autocmd!
-"	" C/C++: clang-format
-"	autocmd BufWritePre *.cpp,*.h,*.cc :silent! !clang-format -i %
-"	" Python: autopep8
-"	autocmd BufWritePre *.py :silent! !autopep8 --in-place %
-"	" JavaScript: prettier
-"	autocmd BufWritePre *.js :silent! !prettier --write %
+"       autocmd!
+"       " C/C++: clang-format
+"       autocmd BufWritePre *.cpp,*.h,*.cc :silent! !clang-format -i %
+"       " Python: autopep8
+"       autocmd BufWritePre *.py :silent! !autopep8 --in-place %
+"       " JavaScript: prettier
+"       autocmd BufWritePre *.js :silent! !prettier --write %
 "augroup END
 
 " Display settings
