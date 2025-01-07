@@ -128,3 +128,18 @@ alias rt="./runtime_tester /mnt/c/Users/12488/Desktop/Template/script/runtime_te
 # create an alias to cd ../template
 alias tp="cd /mnt/c/Users/12488/Desktop/Template"
 
+# create an alias to change dir to the path $(../c_lib)
+alias cl="cd /mnt/c/Users/12488/Desktop/Template/c_lib"
+
+#create aliases for git
+alias gad='git add .'
+alias gct='git commit -m "update"'
+alias gph='git push origin master'
+alias gpl='git pull origin master'
+alias gcl='git clone'
+alias grv='git remote -v'
+alias gbh='git branch'
+alias gcm='git checkout master'
+alias glg='git log'
+alias gss='git status'
+
