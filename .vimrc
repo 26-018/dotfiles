@@ -1,17 +1,26 @@
-" External plug: Install by :source % && :PlugInstall; Uninstall by :PlugClean
+" 1. Install vim-plug (for first time use only): {curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim}
+" 2. Install external plug: {source %} && {:PlugInstall}
+" 3. Uninstall plug: {:PlugClean}
+
 call plug#begin('~/.vim/plugged')
-"Plug 'neoclide/coc.nvim'
+" Auto complete tools
 Plug 'ycm-core/YouCompleteMe'
 Plug 'jiangmiao/auto-pairs'
 Plug 'chiel92/vim-autoformat'
+
+" Rust syntax
+Plug 'rust-lang/rust.vim'
+
+" Themes
 Plug 'ntk148v/komau.vim'
 Plug 'nordtheme/vim'
 call plug#end()
 
+
 " Themes setting
 set t_Co=256
 colorscheme komau
-set background=dark ""? dark : light"
+set background=dark "? dark : light"
 let g:komau_italic=0
 let g:komau_bold=0
 
