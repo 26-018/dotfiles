@@ -132,21 +132,21 @@ alias tp="cd /mnt/c/Users/12488/Desktop/Template"
 alias cl="cd /mnt/c/Users/12488/Desktop/Template/c_lib"
 
 #create aliases for git
-alias gad='git add .'
-alias gct='git commit -m "update"'
-alias gph='git push origin master'
-alias gpl='git pull origin master'
-alias gcl='git clone'
-alias grv='git remote -v'
-alias gbh='git branch'
-alias gcm='git checkout master'
-alias glg='git log'
-alias gss='git status'
+alias gadd='git add .'
+alias gcom='git commit -m "update"'
+alias gpush='git push origin master'
+alias gpull='git pull origin master'
+alias gclone='git clone'
+alias grem='git remote -v'
+alias gbran='git branch'
+alias gcheck='git checkout master'
+alias glog='git log'
+alias gsta='git status'
 
 #create aliases for .config file
-alias vbrc='vim ~/.bashrc'
-alias cbrc='cat ~/.bashrc'
-alias sbrc='source ~/.bashrc'
+alias vbash='vim ~/.bashrc'
+alias cbash='cat ~/.bashrc'
+alias sbash='source ~/.bashrc'
 
-alias vvrc='vim ~/.vimrc'
-alias cvrc='cat ~/.vimrc'
+alias vvim='vim ~/.vimrc'
+alias cvim='cat ~/.vimrc'
