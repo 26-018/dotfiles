@@ -156,3 +156,6 @@ alias sbash='source ~/.bashrc'
 
 alias vvim='vim ~/.vimrc'
 alias cvim='cat ~/.vimrc'
+
+# add Homebrew to PATH
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
