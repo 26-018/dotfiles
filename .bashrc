@@ -116,20 +116,26 @@ if ! shopt -oq posix; then
         fi
 fi
 
+
+alias cls="clear"
+
 # disable hightlight folder
 alias ls="ls --color=never"
 
-# create an alias to run make_header.py to make .h files base on its .c files
+# run python3 cmd
+alias py3="python3"
+
+# run make_header.py: make .h files base on its .c files
 alias mh="python3 /mnt/c/Users/12488/Desktop/Template/script/header.py"
 
-# create an alias to run ./runtime_tester to test executable file runtime
+# run ./runtime_tester to test executable file runtime
 alias rt="./runtime_tester /mnt/c/Users/12488/Desktop/Template/script/runtime_tester"
 
-# create an alias to cd ../template
+# cd to the path $(../template)
 alias tp="cd /mnt/c/Users/12488/Desktop/Template"
 
-# create an alias to change dir to the path $(../c_lib)
-alias cl="cd /mnt/c/Users/12488/Desktop/Template/c_lib"
+# change dir to the path $(../clib)
+alias clib="cd /mnt/c/Users/12488/Desktop/Template/clib"
 
 #create aliases for git
 alias gadd='git add .'
